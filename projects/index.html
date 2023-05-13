@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard</title>
+    <title>Projects</title>
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
 
     <!-- Font Awesome -->
     <link
@@ -23,7 +23,7 @@
   </head>
   <body>
     <header>
-      <button onclick="alert('Hello People!')">
+      <button onclick="alert('Hello People! Welcome to My Project.')">
         <div class="share-button">
           <i class="fa-solid fa-hand"></i>
           <!-- <p>Share</p> -->
@@ -40,102 +40,68 @@
           width="110"
         />
       </div>
-      <h1 class="name">@zidanherlangga</h1>
+      <h1 class="name">@my_projects</h1>
 
-      <!-- Blogspot -->
+      <!-- 1 -->
       <a
-        href="https://zidan-her.blogspot.com"
+        href="https://zidanherlangga04.github.io/todo-list"
         class="tile"
         data-aos="zoom-in"
         data-aos-duration="500"
       >
-        <div class="icon" link="https://zidan-her.blogspot.com">
-          <i class="fa-brands fa-blogger"></i>
+        <div class="icon" link="https://zidanherlangga04.github.io/todo-list">
+          <i class=""></i>
         </div>
-        <p>Blogspot</p>
+        <p>To Do List</p>
         <div class="tile-share-button">
           <i class="fa-solid fa-share"></i>
         </div>
       </a>
 
-      <!-- Facebook -->
+      <!-- 2 -->
       <a
-        href="https://facebook.com/profile.php?id=100092408072498"
+        href="https://zidanherlangga04.github.io/kafe-in"
         class="tile"
         data-aos="zoom-in"
         data-aos-duration="1000"
       >
-        <div
-          class="icon"
-          link="https://facebook.com/profile.php?id=100092408072498"
-        >
-          <i class="fa-brands fa-facebook"></i>
+        <div class="icon" link="https://zidanherlangga04.github.io/kafe-in">
+          <i class=""></i>
         </div>
-        <p>Facebook</p>
+        <p>Kafe In</p>
         <div class="tile-share-button">
           <i class="fa-solid fa-share"></i>
         </div>
       </a>
 
-      <!-- Github -->
-      <a
-        href="https://github.com/zidanherlangga04"
-        class="tile"
-        data-aos="zoom-in"
-        data-aos-duration="1500"
-      >
-        <div class="icon" link="https://github.com/HackBymee">
-          <i class="fa-brands fa-github"></i>
+      <!-- 3 -->
+      <a href="" class="tile" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="icon" link="">
+          <i class=""></i>
         </div>
-        <p>Github</p>
+        <p></p>
         <div class="tile-share-button">
           <i class="fa-solid fa-share"></i>
         </div>
       </a>
 
-      <!-- Instagram -->
-      <a
-        href="https://instagram.com/zidanherlangga04_"
-        class="tile"
-        data-aos="zoom-in"
-        data-aos-duration="2000"
-      >
-        <div class="icon" link="https://instagram.com/zidanherlangga04_">
-          <i class="fa-brands fa-instagram"></i>
+      <!-- 4 -->
+      <a href="" class="tile" data-aos="zoom-in" data-aos-duration="2000">
+        <div class="icon" link="">
+          <i class=""></i>
         </div>
-        <p>Instagram</p>
+        <p></p>
         <div class="tile-share-button">
           <i class="fa-solid fa-share"></i>
         </div>
       </a>
 
-      <!-- Projects -->
-      <a
-        href="projects/index.html"
-        class="tile"
-        data-aos="zoom-in"
-        data-aos-duration="2500"
-      >
-        <div class="icon" link="#">
-          <i class="fa-solid fa-gear"></i>
+      <!-- 5 -->
+      <a href="" class="tile" data-aos="zoom-in" data-aos-duration="2500">
+        <div class="icon" link="">
+          <i class=""></i>
         </div>
-        <p>Projects</p>
-        <div class="tile-share-button">
-          <i class="fa-solid fa-share"></i>
-        </div>
-      </a>
-
-      <!-- Twitter -->
-      <a
-        href="https://twitter.com/dansec04_"
-        class="tile"
-        data-aos="zoom-in"
-        data-aos-duration="3000"
-      >
-        <div class="icon" link="https://twitter.com/dansec04_">
-          <i class="fa-brands fa-twitter"></i>
-        </div>
-        <p>Twitter</p>
+        <p></p>
         <div class="tile-share-button">
           <i class="fa-solid fa-share"></i>
         </div>
@@ -159,6 +125,9 @@
     <!-- TypeitJS -->
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <script>
+      const nameInput = prompt("Whats your name");
+      alert("Hello " + nameInput);
+
       new TypeIt("#typing", {
         speed: 50,
         waitUntilVisible: true,

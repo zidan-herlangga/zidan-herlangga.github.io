@@ -10,6 +10,12 @@ body {
   width: 100%;
   font-family: Verdana, Tahoma, sans-serif;
   list-style: none;
+  scroll-behavior: smooth;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: none;
 }
 
 header {
