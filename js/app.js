@@ -16,3 +16,11 @@ async function copyText(e) {
 shareButtons.forEach((shareButtons) =>
   shareButtons.addEventListener("click", copyText)
 );
+
+function cari() {
+  const { value } = document.getElementById("searchInput");
+  console.log("searching");
+
+  const baseUrl = "https://www.google.com/search?q=";
+  location.replace(baseUrl + value);
+}
