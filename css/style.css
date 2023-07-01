@@ -115,16 +115,17 @@ a {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  max-width: 730px;
+  /* max-width: 678px; */
   padding: 25px;
   width: 100%;
+  border-radius: 17px;
+  background-color: rgb(37, 37, 37);
 }
 
 .search__input {
   display: flex;
   align-items: center;
   width: 100%;
-  border: 1px solid var(--color-primary);
   /* border-radius: 99px; */
   border-radius: 5px;
   padding: 5px;
@@ -137,6 +138,7 @@ a {
 .search__input span {
   padding: 1px;
   margin: 4px;
+  display: none;
 }
 
 .search input {
@@ -158,4 +160,21 @@ a {
   border: none;
   padding: 8px 16px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 678px) {
+  .search__action {
+    display: none;
+  }
+
+  .search__input span {
+    display: block;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 6px;
+    color: rgb(37, 37, 37);
+    border-radius: 10px 8px 5px 0;
+    background-color: #fff;
+  }
 }
