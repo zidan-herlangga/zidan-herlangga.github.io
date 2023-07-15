@@ -24,3 +24,6 @@ function cari() {
   const baseUrl = "https://www.google.com/search?q=";
   location.replace(baseUrl + value);
 }
+
+
+
