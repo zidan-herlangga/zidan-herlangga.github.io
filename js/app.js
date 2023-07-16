@@ -25,5 +25,9 @@ function cari() {
   location.replace(baseUrl + value);
 }
 
-
+document.getElementById("searchInput").addEventListener("keyup", function(event) {
+  if (event.key === "Enter") {
+    cari();
+  }
+});
 
