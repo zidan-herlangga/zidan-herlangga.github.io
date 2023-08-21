@@ -9,6 +9,6 @@
 
 ## Library
 
-- Google Fonts [Link](https://fonts.google.com)
+- Font Awesome [Link](https://fontawesome.com/)
 - Typed JS [Link](https://typeitjs.com)
 - AOS (Animation On Scroll) [Link](https://michalsnik.github.io/aos/)
